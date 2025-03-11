@@ -2,6 +2,12 @@ package Pattern;
 
 import java.util.Scanner;
 
+//        55555
+//        51115
+//        52225
+//        53335
+//        55555
+
 public class Pattern_18
 {
     public static void main(String[] args) {

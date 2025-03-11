@@ -2,6 +2,12 @@ package Pattern;
 
 import java.util.Scanner;
 
+//        A
+//        B B
+//        C C C
+//        D D D D
+//        E E E E E
+
 public class Pattern_21 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {

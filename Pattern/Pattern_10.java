@@ -2,6 +2,19 @@ package Pattern;
 
 import java.util.Scanner;
 
+
+//            *
+//           ***
+//          *****
+//         *******
+//        *********
+//         *********
+//          *******
+//           *****
+//            ***
+//             *
+
+
 public class Pattern_10 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {

@@ -2,27 +2,30 @@ package Pattern;
 
 import java.util.Scanner;
 
-//        1 2 3 4 5
-//        1 2 3 4
-//        1 2 3
-//        1 2
-//        1
+//        E
+//        ED
+//        EDC
+//        EDCB
+//        EDCBA
 
-public class Pattern_07 {
+public class Pattern_23 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int x = sc.nextInt();
             seeding(x);
         }
     }
+
     public static void seeding(int n) {
-        for(int i =n; i > 0;i--)
-        {
-            for(int j =1; j<=i; j++)
-            {
-                System.out.print(j + " ");
+
+        for (int i = 0; i <= n; i++) {
+            char ch = (char) ('A' + n - 1);
+            for (int j = 0; j < i; j++) {
+                System.out.print(ch);
+                --ch;
             }
             System.out.println();
+
         }
     }
 }
