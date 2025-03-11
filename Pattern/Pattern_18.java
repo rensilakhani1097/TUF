@@ -2,7 +2,8 @@ package Pattern;
 
 import java.util.Scanner;
 
-public class pattern_04 {
+public class Pattern_18
+{
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int x = sc.nextInt();
@@ -11,11 +12,14 @@ public class pattern_04 {
     }
     public static void nTriangle(int n) {
 
-        for (int i = 1; i <= n; i++) {
-
-            for (int j = 1; j <= i; j++) {
-
-                System.out.print(j + " ");
+        for(int i =0 ; i <n;    i++)
+        {
+            for(int j =0; j<n; j++)
+            {
+                if(i==0 || j==0 || i==n-1 || j==n-1)
+                {
+                    System.out.print(n);
+                }else System.out.print(i);
             }
             System.out.println();
         }
